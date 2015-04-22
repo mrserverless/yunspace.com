@@ -1,0 +1,1 @@
+A presentation I prepared for company interns. The idea was to give them a light hearted overview of our project tech stack: <iframe src="//slides.com/yunzhilin/microservices-and-friends/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

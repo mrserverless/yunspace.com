@@ -1,0 +1,20 @@
+{
+  "lazybones-dropwizard-turbo": {
+    "title": "Lazybones Dropwizard Turbo",
+    "date": "2015",
+    "url": "http://github.com/trunkplatform/lazybones-dropwizard-turbo",
+    "desc": "Starter kit for new Microservices using Dropwizard"
+  },
+  "dropwizard-guice": {
+    "title": "Dropwizard Guice",
+    "date": "2014",
+    "url": "http://github.com/hubspot/dropwizard-guice",
+    "desc": "Added Governator integration and Unit/Integration Tests"
+  },
+  "dropwizard-xml": {
+    "title": "Dropwizard XML Bundle",
+    "date": "2013",
+    "url": "http://github.com/yunspace/dropwizard-xml",
+    "desc": "Dropwizard XML serialiser/derialiser and validator."
+  }
+}

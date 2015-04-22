@@ -1,0 +1,85 @@
+{
+  "jekyll-and-hyde": {
+    "title": "Jekyll and Hyde",
+    "date": "2013-12-29",
+    "categories": "jekyll"
+  },
+  "dropwizard-xml-provider": {
+    "title": "Dropwizard XML Provider",
+    "date": "2014-01-09",
+    "categories": "dropwizard xml"
+  },
+  "dropwizard-gradle-shadowjar": {
+    "title": "Dropwizard Gradle Build with ShadowJar",
+    "date": "2014-02-12",
+    "categories": "dropwizard gradle"
+  },
+  "layon-and-poole": {
+    "title": "Layon and Poole",
+    "date": "2014-02-15",
+    "categories": "jekyll"
+  },
+  "dropwizard-hibernate-onetomany": {
+    "title": "Dropwizard Hibernate OneToMany",
+    "date": "2014-02-16",
+    "categories": "dropwizard hibernate"
+  },
+  "dropwizard-mongodb-googlecloud": {
+    "title": "Dropwizard MongoDB GoogleCloud",
+    "date": "2014-02-23",
+    "categories": "dropwizard mongodb googlecloud"
+  },
+  "ninja-scroll-the-series": {
+    "title": "Ninja Scroll: The Series",
+    "date": "2014-04-23",
+    "categories": "entertainment ninja anime"
+  },
+  "dropwizard-microservice-spike-pt1": {
+    "title": "Dropwizard Microservice Spike Pt 1 - Justifications",
+    "date": "2014-10-22",
+    "categories": "dropwizard microservices"
+  },
+  "dropwizard-microservice-spike-pt2-results": {
+    "title": "Dropwizard Microservice Spike Pt 2 - Results",
+    "date": "2014-10-30",
+    "categories": "dropwizard microservices"
+  },
+  "multicloude-productivity-tools": {
+    "title": "Multi-Cloud Productivity Tools",
+    "date": "2014-11-29",
+    "categories": "cloud productivity tools",
+    "published": false
+  },
+  "one-game-a-month": {
+    "title": "One Game a Month",
+    "date": "2015-01-10",
+    "categories": "gamedev"
+  },
+  "unity3d-visualstudio-on-mac-using-vstools": {
+    "title": "Unity3d Visual Studio on Mac using UnityVS",
+    "img": "unity3d-visualstudio-on-mac-using-vstools.png",
+    "date": "2015-01-19",
+    "categories": "unity3d visualstudio gamedev"
+  },
+  "dropwizard-jersey2-newrelic-integration": {
+    "title": "Dropwizard Jersey2 NewRelic Integration",
+    "date": "2015-01-29",
+    "categories": "dropwizard jersey2 newrelic"
+  },
+  "jekyll-to-harpjs": {
+    "title": "Jekyll to HarpJs",
+    "date": "2015-03-15",
+    "published": false
+  },
+  "a-tale-of-contemporary-software": {
+    "title": "A Tale of Contemporary Software",
+    "date": "2015-03-31",
+    "published": false
+  },
+  "dropwizard-and-friends": {
+    "title": "Dropwizard and Friends",
+    "date": "2015-04-01",
+    "published": false
+  }
+
+}
