@@ -6,6 +6,6 @@ WORKDIR /yunspace
 COPY harp.json harp.json
 COPY public/ public/
 
-EXPOSE 8080
+EXPOSE 9000
 ENTRYPOINT ["harp"]
-CMD [ "server", "-p", "8080", "." ]
+CMD [ "server", "-p", "9000", "." ]
