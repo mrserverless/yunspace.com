@@ -1,1 +1,0 @@
-My talk at the Sydney Microservices Meetup in April, covering Dropwizard, docker, devops and continuous delivery: <iframe src="//slides.com/yunzhilin/dropwizard-and-friends/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

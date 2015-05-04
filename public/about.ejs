@@ -1,10 +1,18 @@
-<h1>Contact</h1>
+<h1>About</h1>
 
 <% for(handle in authors) {
    var author = authors[handle] %>
+
   <h2><%= author.name %></h2>
   <% if(author.twitter) { %><img class="aside-avatar" src="http://avatars.io/twitter/<%= author.twitter %>?size=large" alt="<%= author.name %> avatar"><% } %>
   <p><%= author.bio %></p>
+  <ul>
+    <li>Software Craftsman by trade</li>
+    <li>Indie Game Developer and Property Investor by passion</li>
+    <li>Christian by faith</li>
+    <li>Proud husband and father of 2</li>
+  </ul>
+  <h3>Contact Yun</h3>
   <ul>
     <% if(author.twitter) { %><li>Tweet on <a href="http://twitter.com/<%= author.twitter %>">Twitter</a></li><% } %>
     <% if(author.dribbble) { %><li>Comment on <a href="http://dribbble.com/<%= author.dribbble %>">Dribbble</a></li><% } %>

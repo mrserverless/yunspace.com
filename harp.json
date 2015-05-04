@@ -7,8 +7,8 @@
     "authors": {
       "yunspace": {
         "name": "Yun Zhi Lin",
+        "bio": "",
         "email": "yun@yunspace.com",
-        "bio": "Microservicer at Trunk Platform",
         "twitter": "yunzhilin",
         "github": "yunspace",
         "disqus": "yunzhilin"
@@ -17,7 +17,8 @@
     "service": {
       "analytics": "UA-XXXXXX-1",
       "service": "example",
-      "prism": true
+      "prism": true,
+      "disqus": "yunzhilin"
     }
   },
   "domains": []

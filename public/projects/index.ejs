@@ -1,6 +1,6 @@
 <h1>Projects</h1>
 
-<p>My Projects and Contributions</p>
+<p>My Opens Source Projects and Contributions</p>
 
 <ul class="index">
   <% for(var slug in public.projects._data){ %>
@@ -9,7 +9,6 @@
       <% if(project.url) { %>
         <a href="<%= project.url %>">
       <% } %>
-        <img src="../img/projects/<%= slug %>.png" alt="<% project.title %> showcase" />
         <p class="meta">
           <% if(project.date) { %><time class="meta-time time"><%= project.date %></time><% } %>
           <span class="meta-title"><%= project.title %></span>
