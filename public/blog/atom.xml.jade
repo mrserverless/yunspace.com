@@ -8,7 +8,8 @@ rss(version="2.0" xmlns:atom="http://www.w3.org/2005/Atom")
     for post, slug in public.blog._data
       item
         title= post.title
-        description <![CDATA[!{ partial(slug) }]]>
+        description 
+          <![CDATA[!{ partial(slug).split("</p>")[1].replace(/src="\/img/g, 'src="http://yunspace.com/blog/img') }]]>
         pubDate= new Date(post.date)
         link #{ url }/blog/#{ post }
         guid(isPermaLink="true") #{ url }/blog/#{ post }
