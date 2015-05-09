@@ -23,8 +23,8 @@
         "author": "yunspace",
         "published": false
     },
-    "harpjs": {
-        "title": "HarpJs Migration",
+    "harp-web-server": {
+        "title": "Harp Web Server",
         "date": "2015-05-04",
         "tags": ["harp", "static", "blog"],
         "author": "yunspace"
