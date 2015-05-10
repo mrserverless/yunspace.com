@@ -1,4 +1,4 @@
-In late 2014 whilst working on AngularJS frontend apps on Herkou, I discovered and recommended [Harp web server](http://harpjs.com/) to the team. If you haven't heard of Harp, have a read of Sintaxi's [Introducing Harp](http://sintaxi.com/introducing-harp). ![Harp Web Server](http://yunspace.com/img/harp/harp-dark-on-trans.png)
+In late 2014 whilst working on AngularJS frontend apps on Herkou, I discovered and recommended [Harp web server](http://harpjs.com/) to the team. If you haven't heard of Harp, have a read of Sintaxi's [Introducing Harp](http://sintaxi.com/introducing-harp). ![Harp Web Server](/img/harp/harp-dark-on-trans.png)
 
 Half a year later, I have also decided to migrate over to harp for my personal blog. For smooth transitioning of my articles and meta data from Jekyll, I used the awesome [Jekyll2Harp](https://github.com/edrex/jekyll2harp). My blogs now consists of just my articles and HTML/CSS templates, drop my files in and Harp detects all changesand preprocesses on the fly. No need to build or and compile static files anymore.
 

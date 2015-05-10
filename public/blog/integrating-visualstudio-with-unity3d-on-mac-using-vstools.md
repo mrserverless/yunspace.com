@@ -1,5 +1,5 @@
 I had the pleasure of attending the first ever [Unite Australia](http://unity3d.com/unite/australia) conference in Melbourne
-back in Octorber 2014. Was given some minor discount vouchers which I used to pre-purchase a license for the upcoming [Unity5](http://unity3d.com/5) release. With plenty of ram to spare on my Macbook Pro (16GB), I thought it would be a good exercise to to run a virtualised Visual Studio to compliment Unity Editor on OSX. [<img src="/img/unity3d-visualstudio-on-mac-using-vstools.png" width="800">](/img/unity3d-visualstudio-on-mac-using-vstools.png)
+back in Octorber 2014. Was given some minor discount vouchers which I used to pre-purchase a license for the upcoming [Unity5](http://unity3d.com/5) release. With plenty of ram to spare on my Macbook Pro (16GB), I thought it would be a good exercise to to run a virtualised Visual Studio to compliment Unity Editor on OSX. [Unity3d Visual Studio Tools](/img/unity3d-visualstudio-on-mac-using-vstools.png)
 
 There has been many different approaches to this problem. Some are out dated and some are quite complex involving custom hacks. But I think the easiest way is using the offical [Visual Studio Tools for Unity](http://unityvs.com/):
 
