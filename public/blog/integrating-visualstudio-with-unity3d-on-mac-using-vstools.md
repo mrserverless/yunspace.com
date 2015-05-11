@@ -1,5 +1,6 @@
 I had the pleasure of attending the first ever [Unite Australia](http://unity3d.com/unite/australia) conference in Melbourne
-back in Octorber 2014. Was given some minor discount vouchers which I used to pre-purchase a license for the upcoming [Unity5](http://unity3d.com/5) release. With plenty of ram to spare on my Macbook Pro (16GB), I thought it would be a good exercise to to run a virtualised Visual Studio to compliment Unity Editor on OSX. [Unity3d Visual Studio Tools](/img/unity3d-visualstudio-on-mac-using-vstools.png)
+back in Octorber 2014. Was given some minor discount vouchers which I used to pre-purchase a license for the upcoming [Unity5](http://unity3d.com/5) release. With plenty of ram to spare on my Macbook Pro (16GB), I thought it would be a good exercise to to run a virtualised Visual Studio to compliment Unity Editor on OSX.
+![Unity3d Visual Studio Tools](/img/unity3d-visualstudio-on-mac-using-vstools.png)
 
 There has been many different approaches to this problem. Some are out dated and some are quite complex involving custom hacks. But I think the easiest way is using the offical [Visual Studio Tools for Unity](http://unityvs.com/):
 
@@ -39,10 +40,10 @@ There has been many different approaches to this problem. Some are out dated and
 
  5. Go to `Visutal Studio Tools` menu item and select `Generate Project Files`. The following files should be generated:
 
- 	UnityVS.{project}.sln
- 	UnityVS.{project}.CSharp.sln
- 	UnityVS.{project}.CSharp.Editor.sln
- 	UnityVS.{project}.CSharp.Plugins.sln
+ 	  UnityVS.{project}.sln
+ 	  UnityVS.{project}.CSharp.sln
+ 	  UnityVS.{project}.CSharp.Editor.sln
+ 	  UnityVS.{project}.CSharp.Plugins.sln
 
  6. Unfortunately the menu item `Open in Visual Studio` button doesn't work. You can work around this by using Finder: right click on the UnityVS solution file and select open with Visual Studio. Do not use the MonoDevelop generated solution/project files anymore.
 
