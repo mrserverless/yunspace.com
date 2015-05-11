@@ -107,7 +107,7 @@
         "tags": ["dropwizard", "gradle"],"author": "yunspace"
     },
     "dropwizard-xml-bundle": {
-        "title": "Dropwizard XML Provider",
+        "title": "Dropwizard XML Bundle",
         "date": "2014-01-09",
         "tags": ["dropwizard", "xml"],
         "author": "yunspace"

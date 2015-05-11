@@ -1,4 +1,4 @@
-After spending several days experimenting with both Dropwizard and Rails, our Engineering team put the two frameworks to a democratic vote. Dropwizard emerged as the winner, mainly due the Java heavy skill set we currently possess. 
+After spending several days experimenting with both Dropwizard and Rails, our Engineering team put the two frameworks to a democratic vote. Dropwizard emerged as the winner, mainly due the Java heavy skill set we currently possess.
 
 However Rails does also offer alot of advantages and interesting solutions to traditional problems. I personally really like Active Records and in an ideal Microservices world, both Dropwizard and Rails should be used side by side. They in fact share many design parallels, and Yammer sums up the two frameworks very well in "[Dropping Rails for Dropwizard?][drop_rails]". The answer is "No", use the right tool for the right job.
 
@@ -21,4 +21,4 @@ I'm also quite glad with the team in reaching a consensus on using [gradle][grad
 [dropwizard-guice]: https://github.com/HubSpot/dropwizard-guice/
 [pull_request_39]:	https://github.com/HubSpot/dropwizard-guice/pull/39
 [issue_19]:			https://github.com/HubSpot/dropwizard-guice/issues/19
-[code_interview]:	{{ site.url }}/slides/dropwizard-mongodb-googlecloud.html
+[code_interview]:	https://slides.com/yunzhilin/dropwizard-mongodb/
