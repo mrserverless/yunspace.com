@@ -11,6 +11,6 @@ rss(version="2.0" xmlns:atom="http://www.w3.org/2005/Atom")
           title= post.title
           pubDate= new Date(post.date).toUTCString()
           author #{ post.author }
-          link #{ url }/blog/#{ post }
-          guid(isPermaLink="true") #{ url }/blog/#{ post }
+          link #{ url }/blog/#{ slug }
+          guid #{ url }/blog/#{ slug }
           description <![CDATA[!{ partial(slug) }]]>
