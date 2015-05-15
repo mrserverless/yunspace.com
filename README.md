@@ -1,6 +1,6 @@
-# YunSpace.Ninja
+# YunSpace.com
 
-[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.ninja/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.ninja)
+[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.com/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.com)
 new blog using [HarpJS](http://harpjs.com) and [Docker](http://docker.io)
 
 ## Tech Stack
