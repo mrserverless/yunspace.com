@@ -1,7 +1,8 @@
 FROM quay.io/yunspace/alphine-harp:0.17.0-squashed
 MAINTAINER Yun Zhi Lin <yun@yunspace.com>
 
-WORKDIR /yunspace
+ENV NODE_ENV prouction
+WORKDIR /yunspace.com
 
 COPY harp.json harp.json
 COPY public/ public/
