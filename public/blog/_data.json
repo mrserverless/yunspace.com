@@ -3,25 +3,16 @@
       "layout": false
     },
     "building-a-windows8-homeserver-using-storage-spaces": {
-        "title": "Dropwizard and Friends",
-        "date": "2015-05-02",
+        "title": "Building a Windows8 Home Server using Storage Spaces",
+        "date": "2015-05-16",
         "tags": ["homeserver", "windows", "nas"],
-        "author": "yunspace",
-        "published": false
-    },
-    "do-it-yourself-docker-paas-tutum-vs-rancher-io": {
-        "title": "Do It Yourself Docker PaaS: Tutum vs Rancer.io",
-        "date": "2015-05-02",
-        "tags": ["homeserver", "windows", "nas"],
-        "author": "yunspace",
-        "published": false
+        "author": "yunspace"
     },
     "docker-harp-microcontainer": {
         "title": "Docker Harp Microcontainer",
-        "date": "2015-05-02",
-        "tags": ["docker", "harp", "microcontainer"],
-        "author": "yunspace",
-        "published": false
+        "date": "2015-05-16",
+        "tags": ["docker", "harp", "microcontainer", "microservices", "continuous-delivery"],
+        "author": "yunspace"
     },
     "harp-web-server": {
         "title": "Harp Web Server",
@@ -44,7 +35,7 @@
     "microservices-and-friends": {
         "title": "Microservices and Friends",
         "date": "2015-02-12",
-        "tags": ["microservices", "dropwizard", "devops", "presentation"],
+        "tags": ["microservices", "dropwizard", "docker", "devops", "presentation"],
         "author": "yunspace"
     },
     "dropwizard-jersey2-newrelic-integration": {

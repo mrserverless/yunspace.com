@@ -8,18 +8,25 @@
     <% var post = public.blog._data[slug] %>
     <% if(post.title && post.published!==false) { %>
       <li class="index-item">
-        <a class="index-link" href="blog/<%= slug %>">
-          <h2 class="index-title">
-            <%= post.title %>
-          </h2>
+        <div class="article-meta">
+          <a class="index-link" href="blog/<%= slug %>">
+            <h2 class="index-title">
+              <%= post.title %>
+            </h2>
+          </a>
           <% if(post.author) { %>
-            <a href="http://twitter.com/<%= authors[post.author].twitter %>"><%= authors[post.author].name %></a>
+            <span class="meta-author">
+              <a href="http://twitter.com/<%= authors[post.author].twitter %>"><%= authors[post.author].name %></a>
+            </span>
           <% } %>
           <time class="time time--inline"> on <%= post.date %></time>
-        </a>
+          <a href="blog/<%= slug %>#disqus_thread">Comments</a>
+        </div>
         <p><%- excerpt(partial("blog/" + slug)) %></p>
         <a class="index-more" href="">•••</a>
       </li>
     <% } %>
   <% } %>
 </ul>
+
+<% include _includes/comments_count %>
