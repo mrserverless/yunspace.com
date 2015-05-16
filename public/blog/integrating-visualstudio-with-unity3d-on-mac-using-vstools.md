@@ -53,6 +53,6 @@ UnityVS.{project}.CSharp.Plugins.sln
 
  6. Unfortunately the menu item `Open in Visual Studio` button doesn't work. You can work around this by using Finder: right click on the UnityVS solution file and select open with Visual Studio. Do not use the MonoDevelop generated solution/project files anymore.
 
- 7. Inside your Windows VM, with your Unity project open in Visual Studio , verify you use `Attach to Unity` to debug your running Mac Unity instance.
+ 7. Inside your Windows VM, with your Unity project open in Visual Studio, verify you use `Attach to Unity` to debug your running Mac Unity instance.
 
 Hopefully now you will have the best of both worlds.
