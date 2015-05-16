@@ -1,24 +1,42 @@
-For a while now I've been trying to decide whether to buy a NAS or build my own. In the end I decided to pull out my old PC to build a home server using [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools) and extra disks.
+For a while now I've been trying to decide whether to buy a NAS or build my own. I wanted some basic RAID setup to protect my data and photos but can't quite justify paying
+$250-$500 for a 2 bay diskless NAS enclosure. In the end I decided to pull out my old PC, to build a home server using some extra disks pooled together by [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools).
 ![homeserver running](/img/homeserver/homeserver_running.png)
 
+I started out with the following options:
 
 **Buy a NAS**
+
+*Pros*
   - Does one thing and does one thing well.
-  - However software are not open standards and you are stuck with the vendor OS
-  - Adding Plug In such as Plex may be limited by the amount of RAM in the NAS
+  - Easy to use and setup
+
+*Cons*
+  - Software are not open standards and you are stuck with the vendor OS
+  - Limited Plug In such as Plex may be limited by the amount of RAM in the NAS
 
 **Build my own NAS**
+
+*Pros*
   - Use opensource software such as Amahi or FreeNas.
-  - More work to setup and another OS to learn. Not so family friendly since my wife is not techy
+  - More flexibility in plugins
+
+*Cons*
+  - Lots of work to setup and another OS to learn.
+  - Not so friendly for non-techy family members
 
 **Home Server**
-  - Re-use my old PC
-  - Everyone knows how to use Windows. Works as a file server, home pc and game machine
-  - Noisy and power hungry, but this isn't an issue for me
 
-The following lifehacker articles got me started on my journey:
-[Do you run a Home Server or NAS](http://lifehacker.com/5974253/do-you-run-a-home-server-or-nas)
-[Building a Low Powered Home File Server](http://lifehacker.com/5938883/how-can-i-build-a-quiet-low+powered-home-file-server)
+*Pros*
+  - Re-use my old PC
+  - Everyone knows how to use Windows. Works as a file server, home office pc and game machine
+
+*Cons*
+  - Some work involved, but manageable.
+  - Noisy and power hungry, but can be mitigated.
+
+After deciding on buliding my own Home Server, the following lifehacker articles got me started:
+- [Do you run a Home Server or NAS](http://lifehacker.com/5974253/do-you-run-a-home-server-or-nas)
+- [Building a Low Powered Home File Server](http://lifehacker.com/5938883/how-can-i-build-a-quiet-low+powered-home-file-server)
 
 ## Parts
 [Build the Perfect Media Centre for $600](http://www.lifehacker.com.au/2014/02/build-the-perfect-media-centre-for-600/) - very useful guide for budgeting your spending.
@@ -54,7 +72,10 @@ WD Red 2TB formatted in RESF format. The storage pool is then network shared.
 ## Remote Access
 Chrome Remote Desktop for remote login
 
-Steam Stream for gaming
+Steam Stream for gaming (optional)
 
-TODO: In the future I will look to also upgrade the motherboard, CPU and Case. Again being budget conscious I'll go for the Micro ATX board and cases less than $100 each. 
-But for now this home server/game machine combination is doing well.
+In conclusion, my total cost was really just the disks. Ignoring my overkill GFX card and 650V power supply, you should be able to do a similar setup to turn any old PC into a
+RAID enabled home server. As long as it supports SATA drives and can run Windows 8.
+
+In the future I will look to also upgrade the motherboard, CPU and Case. Again being budget conscious I'll go for the Micro ATX board and cases less than $100 each. But for now
+ this home server/game machine combination is doing well.
