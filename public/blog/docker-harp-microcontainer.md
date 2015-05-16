@@ -49,5 +49,5 @@ $ docker export {containerId} | docker import – yunspace/alphine-harp:squashed
 This resulted in a squashed or flattend container size of 127mb. Quite certain is this the smallest possible container with Node and Harp web server. Check it out and let me know if you have ideas for improvement:
 
 * github: [yunspace/docker-alphine-harp](https://github.com/yunspace/docker-alphine-harp)
-* quay.io: [![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alphine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alphine-harp)
+* quay.io: [quay.io/yunspace/alphine-harp](https://quay.io/repository/yunspace/alphine-harp/) [![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alphine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alphine-harp)
 * dockerhub: [yunspace/alphine-harp](https://registry.hub.docker.com/u/yunspace/alphine-harp/)
