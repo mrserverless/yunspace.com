@@ -1,4 +1,4 @@
-For a while now I've been trying to decide whether to buy a NAS or build my own. In the end I decided to pull out my old PC to build a home server using Windows 8 Storage Spaces and extra disks.
+For a while now I've been trying to decide whether to buy a NAS or build my own. In the end I decided to pull out my old PC to build a home server using [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools) and extra disks.
 ![homeserver running](/img/homeserver/homeserver_running.png)
 
 
@@ -37,7 +37,8 @@ The following lifehacker articles got me started on my journey:
 Windows 8.1 Enterprise - I read [Use Windows 8 as a Windows Home Server](http://lifehacker.com/5955262/use-windows-8-as-a-windows-home-server) but it
  was pretty useless and the article they linked is trying to sell a ebook. But who needs to read a ebook to use Windows anyway?
 
-I used [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools) software based RAID consisting of my two new WD Red 2TB formatted in RESF format. The storage pool is then network shared.
+I use software based RAID 1 provided by [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools). The pool consists of my two new
+WD Red 2TB formatted in RESF format. The storage pool is then network shared.
 ![storage spaces](/img/homeserver/storage-space.png)
 
 ## Sync
@@ -55,4 +56,5 @@ Chrome Remote Desktop for remote login
 
 Steam Stream for gaming
 
-TODO: In the future I will look to also upgrade the motherboard, CPU and Case. Again being budget concious I'll go for the Micro ATX board and cases less than $100 each. But for now this home server/game machine combination is doing well.
+TODO: In the future I will look to also upgrade the motherboard, CPU and Case. Again being budget conscious I'll go for the Micro ATX board and cases less than $100 each. 
+But for now this home server/game machine combination is doing well.
