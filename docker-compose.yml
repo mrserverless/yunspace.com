@@ -1,0 +1,10 @@
+yunspace-blog:
+  image: 'quay.io/yunspace/yunspace.com:master'
+  restart: always
+  deployment_strategy: high_availability
+  environment:
+    - NODE_ENV=PRODUCTION
+    - VIRTUAL_HOST=www.yunspace.com
+  ports:
+    - '9000:9000'
+  target_num_containers: 3

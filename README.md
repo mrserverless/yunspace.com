@@ -1,14 +1,15 @@
 # YunSpace.com
 
-[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.com/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.com)
-new blog using [HarpJS](http://harpjs.com) and [Docker](http://docker.io)
+My blog using [HarpJS](http://harpjs.com) deployed as [Docker](http://docker.io) containers managed
+by [Tutum](https://tutum.co)
+
+[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
 
 ## Tech Stack
 
 * Blog Template: [hb-simurai](https://github.com/kennethormandy/hb-simurai)
-* Docker Image: [yunspace/alphine-harp](https://quay.io/repository/yunspace/alphine-harp)
+* Base Image: [yunspace/alphine-harp](https://quay.io/repository/yunspace/alphine-harp)
 * Docker Repo: [Quay.io](quay.io)
-* Deployed to [Docker Swarm](https://docs.docker.com/swarm/) on [Windows Azure](http://azure.microsoft.com/)
 
 ## Usage
 
@@ -19,5 +20,5 @@ Run using HarpJS:
 
 Build and run Docker
 
-  docker build -t yunspace/yunspace.ninja .
-  docker run --rm -t -p 8080:8080 yunspace/yunspace.ninja
+  docker build -t yunspace/yunspace.com .
+  docker run --rm -t -p 8080:8080 yunspace/yunspace.com
