@@ -1,5 +1,6 @@
 For a while now I've been trying to decide whether to buy a NAS or build my own. I wanted some basic RAID setup to protect my data and photos but can't quite justify paying
 $250-$500 for a 2 bay diskless NAS enclosure. In the end I decided to pull out my old PC, to build a home server using some extra disks pooled together by [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools).
+
 ![homeserver running](/img/homeserver/homeserver_running.png)
 
 I started out with the following options:

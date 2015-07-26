@@ -2,6 +2,13 @@
     "feed": {
       "layout": false
     },
+    "multiple-virtualhost-subdomains-using-tutum-haproxy": {
+        "title": "Tutum HAProxy VirtualHost plus SSL Setup",
+        "date": "2015-05-16",
+        "tags": ["homeserver", "windows", "nas"],
+        "author": "yunspace",
+        "published": false
+    },
     "building-a-windows8-homeserver-using-storage-spaces": {
         "title": "Building a Windows8 Home Server using Storage Spaces",
         "date": "2015-05-16",
@@ -18,24 +25,6 @@
         "title": "Harp Web Server",
         "date": "2015-05-10",
         "tags": ["harp", "static", "blog"],
-        "author": "yunspace"
-    },
-    "dropwizard-and-friends-on-a-12factor-quest": {
-        "title": "Dropwizard and Friends on a Twelve Factor Quest",
-        "date": "2015-04-01",
-        "tags": ["dropwizard", "docker", "12factor", "devops", "presentation"],
-        "author": "yunspace"
-    },
-    "a-tale-of-contemporary-software": {
-        "title": "A Tale of Contemporary Software",
-        "date": "2015-03-31",
-        "tags": ["microservices", "presentation"],
-        "author": "yunspace"
-    },
-    "microservices-and-friends": {
-        "title": "Microservices and Friends",
-        "date": "2015-02-12",
-        "tags": ["microservices", "dropwizard", "docker", "devops", "presentation"],
         "author": "yunspace"
     },
     "dropwizard-jersey2-newrelic-integration": {

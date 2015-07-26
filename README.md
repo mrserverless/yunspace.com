@@ -3,7 +3,7 @@
 My blog using [HarpJS](http://harpjs.com) deployed as [Docker](http://docker.io) containers managed
 by [Tutum](https://tutum.co)
 
-[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
+[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/?repo=https://github.com/yunspace/yunspace.com)
 
 ## Tech Stack
 
