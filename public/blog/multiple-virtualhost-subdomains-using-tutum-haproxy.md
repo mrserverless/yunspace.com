@@ -1,6 +1,6 @@
-Docker orchestration platform [Tutum Cloud](http://tutum.co/) provides many handy utility images
-came across some challenges when setting up Virtual Hosts and SSL with Tutum [HAProxy](https://github.com/tutumcloud/haproxy)
-fork. We managed to get everything to work in the end, and I will attempt to document some of our key learnings.
+[Tutum Cloud](http://tutum.co/) provides many handy Docker images that it easy for you to manage your Docker infrastructure.
+[Tutum HAProxy](https://github.com/tutumcloud/haproxy) by far is one of the most useful. In this article I will demonstrate
+how to setup virtual hosts to router multiple subdomains, and add SSL certificate/s to protect your network.
 
 ```
                                                      |---- container_a1

@@ -2,6 +2,12 @@
     "feed": {
       "layout": false
     },
+    "dropwizard-https-jerseyclient-runtime-loading-jssecacerts-into-truststore": {
+        "title": "Dropwizard HTTPS JerseyClient runtime loading JSSE Certificates into TrustStore",
+        "date": "2015-05-16",
+        "tags": ["dropwizard", "ssl", "jersey"],
+        "author": "yunspace"
+    },
     "multiple-virtualhost-subdomains-using-tutum-haproxy": {
         "title": "Tutum HAProxy VirtualHost plus SSL Setup",
         "date": "2015-05-16",
@@ -30,7 +36,7 @@
     "dropwizard-jersey2-newrelic-integration": {
         "title": "Dropwizard Jersey2 NewRelic Integration",
         "date": "2015-01-29",
-        "tags": ["dropwizard", "jersey2", "devops"],
+        "tags": ["dropwizard", "jersey", "devops"],
         "author": "yunspace"
     },
     "integrating-visualstudio-with-unity3d-on-mac-using-vstools": {
