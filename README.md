@@ -1,7 +1,9 @@
 # YunSpace.com
 
-My blog using [HarpJS](http://harpjs.com) deployed as [Docker](http://docker.io) containers managed
+My blog using [HarpJS](http://harpjs.com) as [Docker](http://docker.io) containers managed
 by [Tutum](https://tutum.co)
+
+[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.com/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.com) 
 
 [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/?repo=https://github.com/yunspace/yunspace.com)
 
