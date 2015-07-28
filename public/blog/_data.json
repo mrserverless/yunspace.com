@@ -2,8 +2,8 @@
     "feed": {
       "layout": false
     },
-    "dropwizard-https-jerseyclient-that-loads-jssecacerts-at-runtime": {
-        "title": "Dropwizard HTTPS JerseyClient that loads JSSE Certificates at runtime",
+    "dropwizard-https-jerseyclient-with-runtime-jssecacerts": {
+        "title": "Dropwizard HTTPS JerseyClient with runtime JSSE CA Certificates",
         "date": "2015-05-16",
         "tags": ["dropwizard", "ssl", "jersey"],
         "author": "yunspace"
