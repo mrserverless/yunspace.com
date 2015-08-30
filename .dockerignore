@@ -1,0 +1,7 @@
+public/
+.git/
+.idea/
+.gitignore/
+.DS_Store
+README.md
+docker-compose.yml

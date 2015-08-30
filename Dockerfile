@@ -1,12 +1,18 @@
-FROM quay.io/yunspace/alphine-harp:0.17.0-squashed
+FROM technotycoon/alpine-hugo:0.14
 MAINTAINER Yun Zhi Lin <yun@yunspace.com>
 
-ENV NODE_ENV prouction
+ENV HUGO_BASE_URL http://localhost:1313
+ENV HUGO_THEME casper
 WORKDIR /yunspace.com
 
-COPY harp.json harp.json
-COPY public/ public/
+COPY config.toml config.toml
+COPY archetypes/ archetypes/
+COPY content/ content/
+COPY data/ data/
+COPY layouts/ layouts/
+COPY static/ static/
+COPY themes/ themes/
 
-EXPOSE 9000
-ENTRYPOINT ["harp"]
-CMD [ "server", "-p", "9000", "." ]
+EXPOSE 1313
+ENTRYPOINT [ "hugo" ]
+CMD [ "server", "-t", "casper" ]

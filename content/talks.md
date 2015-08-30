@@ -1,4 +1,8 @@
-# Talks
++++
+title = "Talks"
+date = "2015-04-09"
+menu = "main"
++++
 
 My talk at the [Sydney Microservices Meetup](http://www.meetup.com/Sydney-Microservices/) in April, covering Dropwizard, docker, devops and continuous delivery: <iframe src="//slides.com/yunzhilin/dropwizard-and-friends/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
