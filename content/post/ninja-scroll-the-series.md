@@ -10,7 +10,7 @@ linktitle: 'Ninja Scroll: The Series'
 ---
 I've just finished watching [Ninja Scroll: The Series][series] which is a 2003 follow up series to [Ninja Scroll][movie] movie. It has some pretty big shoes to fill, considering the original 1993 movie received a "100% fresh" rating from Rotten Tomatoes with 5 star from all critics.
 
-![Ninja Scroll Movie](/img/ninja-scroll-the-series/ninjascroll_movie.jpg)
+![Ninja Scroll Movie](/images/ninja-scroll-the-series/ninjascroll_movie.jpg)
 
 I have high regards for the Ninja Scroll movie, and consider it to be the best Ninja anime movie by far. In terms of live action Ninja movies I definitely rank [Shinobi: Heart Under Blade][shinobi] as top of my list.
 

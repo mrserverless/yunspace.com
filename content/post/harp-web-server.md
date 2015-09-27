@@ -8,12 +8,12 @@ tags:
 author: yunspace
 linktitle: Harp Web Server
 ---
-![Harp Web Server](/img/harp/harp-dark-trans.png)
+![Harp Web Server](/images/harp/harp-dark-trans.png)
 In late 2014 whilst working on AngularJS frontend apps on Herkou, I discovered and recommended [Harp web server](http://harpjs.com/) to the team. Harp is a powerful static file web server with built-in template proprocessing. It helped us eliminate much tedious build tasks and ruby gems from our static client projects. If you haven't heard of Harp, have a read of Sintaxi's [Introducing Harp](http://sintaxi.com/introducing-harp).
 
 Half a year later, I have also decided to migrate over to harp for my personal blog. For smooth transitioning of my articles and meta data from Jekyll, I used the awesome [Jekyll2Harp](https://github.com/edrex/jekyll2harp). My blogs now consists of just my articles and HTML/CSS templates, and Harp preprocesses all my static files on the fly. No more Jekyll gems, no more compile commands. Also I no longer need to prefix my blog posts with the timestamp which is really neat. Lastly my Disqus comments was moved using [Disqus Migration Tools](https://help.disqus.com/customer/portal/articles/286778-migration-tools).
 
-For a new blog template I picked Kenneth Ormandy's [HB-Simurai](https://github.com/kennethormandy/hb-simurai). It has an slight oriental feel and fits will with my [personal seal](/img/yun_stamp_trans.png).
+For a new blog template I picked Kenneth Ormandy's [HB-Simurai](https://github.com/kennethormandy/hb-simurai). It has an slight oriental feel and fits will with my [personal seal](/images/yun_stamp_trans.png).
 
 The next question is where to host my harp blog. There are several options:
 

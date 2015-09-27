@@ -5,15 +5,16 @@ paginate = 5
 DisqusShortname = "yunzhilin"
 Copyright = "All rights reserved - 2015"
 canonifyurls = true
+theme = "casper"
 
 [params]
-  description = "Life amongst the Clouds"
-  cover = "img/cover.jpg"
+  description = "Beyond the Clouds"
+  cover = "images/cover.jpg"
   author = "Yun Zhi Lin"
   authorlocation = "Sydney, Australia"
   authorwebsite = "https://www.yunspace.com"
   bio= "my bio"
-  logo = "img/yun_stamp_trans.png"
+  logo = "images/yun_stamp_trans.png"
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
@@ -24,7 +25,7 @@ canonifyurls = true
   hideHUGOSupport = false
 
 [permalinks]
-  post = "/:slug/"
+  post = "/post/:slug/"
 
 [[menu.main]]
   name = "Blog"

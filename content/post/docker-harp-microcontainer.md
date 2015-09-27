@@ -11,7 +11,7 @@ author: yunspace
 linktitle: Docker Harp Microcontainer
 ---
 I'm a strong believer in Docker Microcontainers that are not based on Ubuntu or Debian, ideally less than 100mb. I was quite inspired by errordeveloper's minimal [dockerfile-oracle-java](https://github.com/errordeveloper/dockerfile-oracle-java) container using [BusyBox](https://registry.hub.docker.com/_/busybox/). So I set out to build a minimal container for Harp web server.
-![docker-alphine-harp](/img/projects/docker-alphine-harp.png)
+![docker-alphine-harp](/images/projects/docker-alphine-harp.png)
 
 Why Microcontainers?
 1. There's nothing "Micro" about deploying a 15mb MicroService onto a bloated 1GB container.

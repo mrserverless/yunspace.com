@@ -11,7 +11,7 @@ linktitle: Building a Windows8 Home Server using Storage Spaces
 For a while now I've been trying to decide whether to buy a NAS or build my own. I wanted some basic RAID setup to protect my data and photos but can't quite justify paying
 $250-$500 for a 2 bay diskless NAS enclosure. In the end I decided to pull out my old PC, to build a home server using some extra disks pooled together by [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools).
 
-![homeserver running](/img/homeserver/homeserver_running.png)
+![homeserver running](/images/homeserver/homeserver_running.png)
 
 I started out with the following options:
 
@@ -60,7 +60,7 @@ After deciding on buliding my own Home Server, the following lifehacker articles
 *Bought:*
 - 2 x [WD Red 2 TB Nas Drives](http://www.wdc.com/en/products/products.aspx?id=810) for $278 on mwave
 - 2 x 4GB DDR3 RAM for $90 on mwave (doesn't fit my motherboard, so not useful unless I further upgrade my machine)
-![parts](/img/homeserver/parts.png)
+![parts](/images/homeserver/parts.png)
 
 ## OS and RAID
 Windows 8.1 Enterprise - I read [Use Windows 8 as a Windows Home Server](http://lifehacker.com/5955262/use-windows-8-as-a-windows-home-server) but it
@@ -68,7 +68,7 @@ Windows 8.1 Enterprise - I read [Use Windows 8 as a Windows Home Server](http://
 
 I use software based RAID 1 provided by [Windows8 Storage Space](http://windows.microsoft.com/en-AU/windows-8/storage-spaces-pools). The pool consists of my two new
 WD Red 2TB formatted in RESF format. The storage pool is then network shared.
-![storage spaces](/img/homeserver/storage-space.png)
+![storage spaces](/images/homeserver/storage-space.png)
 
 ## Sync
 *Files* - [BT Sync](https://www.getsync.com/)
