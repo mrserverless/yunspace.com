@@ -1,7 +1,7 @@
 FROM quay.io/technotycoon/alpine-hugo:latest
 MAINTAINER Yun Zhi Lin <yun@yunspace.com>
 
-ENV HUGO_BASE_URL http://docker:1313
+ENV HUGO_BASE_URL http://docker
 WORKDIR /yunspace.com
 
 RUN apk update && apk add git && rm -rf /var/cache/apk/*
@@ -17,4 +17,4 @@ COPY static/ static/
 EXPOSE 1313
 
 #ENTRYPOINT [ "hugo" ]
-CMD hugo server --bind=0.0.0.0 --baseUrl=${HUGO_BASE_URL}
+CMD hugo server --bind=0.0.0.0 --baseUrl=${HUGO_BASE_URL} --appendPort=false
