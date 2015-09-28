@@ -6,7 +6,7 @@ tags:
 - microservices
 author: yunspace
 aliases:
-	- /blog/dropwizard-microservice-spike-pt1
+  - /blog/dropwizard-microservice-spike-pt1
 ---
 Recently at [Apmasphere][apmasphere] we have been attempting a series of architectural [spikes][spikes]. One of which was to move from a single monolithic cloud based application towards a more distributed Microservices architecture using RESTful APIs. The spike ran in parrallel: I'm in charge of the JVM stream while my collegaue heads the Ruby on Rails prototype.
 

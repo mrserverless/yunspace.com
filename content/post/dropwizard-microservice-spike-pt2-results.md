@@ -6,7 +6,7 @@ tags:
 - microservices
 author: yunspace
 aliases:
-	- /blog/dropwizard-microservice-spike-pt2-results
+  - /blog/dropwizard-microservice-spike-pt2-results
 ---
 After spending several days experimenting with both Dropwizard and Rails, our Engineering team put the two frameworks to a democratic vote. Dropwizard emerged as the winner, mainly due the Java heavy skill set we currently possess.
 
