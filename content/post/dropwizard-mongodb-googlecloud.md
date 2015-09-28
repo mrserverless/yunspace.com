@@ -7,7 +7,8 @@ tags:
 - googlecloud
 - presentaiton
 author: yunspace
-linktitle: Dropwizard MongoDB GoogleCloud
+aliases:
+  - /blog/dropwizard-mongodb-googlecloud
 ---
 [Apmasphere][apmasphere] is an elite team of revolutionaries tackling the old-school property management industry, with fresh new ideas, mobile apps and cloud based infrastrcuture. I had the pleasure of working with them to build a quick prototype using Dropwizard and Mongodb hosted on [Google Compute Engine][gce]. <iframe src='//slides.com/yunzhilin/dropwizard-mongodb/embed' width='576' height='420' scrolling='no' frameborder='0' webkitallowfullscreen='' mozallowfullscreen='' allowfullscreen=''>
 

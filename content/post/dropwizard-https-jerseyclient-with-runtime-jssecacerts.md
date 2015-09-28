@@ -6,7 +6,8 @@ tags:
 - ssl
 - jersey
 author: yunspace
-linktitle: Dropwizard HTTPS JerseyClient with runtime JSSE CA Certificates
+aliases:
+  - /blog/dropwizard-https-jerseyclient-with-runtime-jssecacerts
 ---
 
 For Jersey Client (or any Java web client for that matter) to connect to a SSL endpoint, the target server certificate must be

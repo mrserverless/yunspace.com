@@ -6,7 +6,8 @@ tags:
 - static
 - blog
 author: yunspace
-linktitle: Harp Web Server
+aliases:
+  - /blog/harp-web-server
 ---
 ![Harp Web Server](/images/harp/harp-dark-trans.png)
 In late 2014 whilst working on AngularJS frontend apps on Herkou, I discovered and recommended [Harp web server](http://harpjs.com/) to the team. Harp is a powerful static file web server with built-in template proprocessing. It helped us eliminate much tedious build tasks and ruby gems from our static client projects. If you haven't heard of Harp, have a read of Sintaxi's [Introducing Harp](http://sintaxi.com/introducing-harp).

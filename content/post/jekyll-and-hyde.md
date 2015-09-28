@@ -6,7 +6,8 @@ tags:
 - static
 - blog
 author: yunspace
-linktitle: Jekyll and Hyde
+aliases:
+  - /blog/jekyll-and-hyde
 ---
 # Jekyll and Hyde
 

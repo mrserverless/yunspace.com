@@ -5,7 +5,8 @@ tags:
 - dropwizard
 - gradle
 author: yunspace
-linktitle: Dropwizard Gradle Build with ShadowJar
+aliases:
+  - /blog/dropwizard-gradle-shadowjar
 ---
 I've moved from [FatJar][fatjar] to [ShadowJar][shadow] plugin for building my Dropwizard Gradle fat jar. It's a direct port of the Maven [Shade][shade] plugin, under active support by the folks at [Object Partners][objectpartners] and offers better performance.
 

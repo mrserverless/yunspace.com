@@ -6,8 +6,9 @@ tags:
 - windows
 - nas
 author: yunspace
-published: false
-linktitle: Tutum HAProxy VirtualHost plus SSL Setup
+draft: true
+aliases:
+  - /blog/multiple-virtualhost-subdomains-using-tutum-haproxy
 ---
 [Tutum Cloud](http://tutum.co/) provides many handy Docker images that it easy for you to manage your Docker infrastructure.
 [tutum-haproxy] by far is one of the most useful. In this article I will demonstrate

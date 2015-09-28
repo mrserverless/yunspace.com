@@ -6,7 +6,8 @@ tags:
 - jersey
 - devops
 author: yunspace
-linktitle: Dropwizard Jersey2 NewRelic Integration
+aliases:
+  - /blog/dropwizard-jersey2-newrelic-integration
 ---
 In order to integrate Dropwizard 0.8.x with the in depth analytics provided by [New Relic](http://newrelic.com/), I've made some enhancements to the code samples from Kyle Boon's blog: [Enabling Newrelic for Dropwizard](http://kyleboon.org/blog/2013/09/23/newrelic-for-dropwizard/).
 

@@ -8,7 +8,8 @@ tags:
 - microservices
 - continuous-delivery
 author: yunspace
-linktitle: Docker Harp Microcontainer
+aliases:
+  - /blog/docker-harp-microcontainer
 ---
 I'm a strong believer in Docker Microcontainers that are not based on Ubuntu or Debian, ideally less than 100mb. I was quite inspired by errordeveloper's minimal [dockerfile-oracle-java](https://github.com/errordeveloper/dockerfile-oracle-java) container using [BusyBox](https://registry.hub.docker.com/_/busybox/). So I set out to build a minimal container for Harp web server.
 ![docker-alphine-harp](/images/projects/docker-alphine-harp.png)

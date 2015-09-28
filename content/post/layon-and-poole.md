@@ -6,7 +6,8 @@ tags:
 - static
 - blog
 author: yunspace
-linktitle: Layon and Poole
+aliases:
+  - /blog/layon-and-poole
 ---
 As per v2.0.0 of this blog I've changed from my theme from [Hyde][andhyde] to [Layon][layon]. Both themes are based on [Poole][poole] (Jekyll's butler), released open source by the very creative [Mark Otto][mdo].
 

@@ -34,23 +34,17 @@ theme = "casper"
   url = "/"
 
 [[menu.main]]
-  name = "Github repos"
+  name = "Github"
   weight = 100
   pre = "<h3>Follow me</h3>"
-  url = "https://github.com/vjeantet"
+  url = "https://github.com/yunspace"
 
 [[menu.main]]
-  name = "Twitter timeline"
+  name = "Twitter"
   weight = 101
-  url = "https://twitter.com/vjeantet"
+  url = "https://twitter.com/yunzhilin"
 
 [[menu.main]]
-  name = "Flipboard magazines"
-  weight = 102
-  url = "https://flipboard.com/@vjeantet"
-
-[[menu.main]]
-  name = "Keybase (secure msg)"
-  weight = 109
-  pre = "<h3>Contact me</h3>"
-  url = "https://Keybase.io/vjeantet"
+  name = "LinkedIn"
+  weight = 101
+  url = "https://au.linkedin.com/in/yunzhilin"

@@ -6,6 +6,8 @@ tags:
 - xml
 author: yunspace
 linktitle: Dropwizard XML Bundle
+aliases:
+  - /blog/dropwizard-xml-bundle
 ---
 [Dropwizard][dropwizard.io] is smple yet awesome. By default it only takes JSON which is not so awesome for most Enterprise software and legacy systems. So I've written a [Dropwizard XML Bundle][dropwizard-xml] to make it easier to users who need XML serialisation, deserialisation and validation.
 

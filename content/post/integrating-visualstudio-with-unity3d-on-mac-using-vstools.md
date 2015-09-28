@@ -7,6 +7,8 @@ tags:
 - gamedev
 author: yunspace
 linktitle: Integrating Visual Studio with Unity3d on Mac using UnityVS Tools
+aliases:
+    - /blog/integrating-visualstudio-with-unity3d-on-mac-using-vstools
 ---
 I had the pleasure of attending the first ever [Unite Australia](http://unity3d.com/unite/australia) conference in Melbourne
 back in Octorber 2014. Was given some minor discount vouchers which I used to pre-purchase a license for the upcoming [Unity5](http://unity3d.com/5) release. With plenty of ram to spare on my Macbook Pro (16GB), I thought it would be a good exercise to to run a virtualised Visual Studio to compliment Unity Editor on OSX.

@@ -6,7 +6,8 @@ tags:
 - database
 - hibernate
 author: yunspace
-linktitle: Dropwizard Hibernate OneToMany
+aliases:
+  - /blog/dropwizard-hibernate-onetomany
 ---
 Inspired by the: [Black Sails][blacksails] tv series, I decided to make a pirate themed sample project for [Dropwizard XML Provider][dropwizard-xml]. The premise is simple: each Pirate has many Ships and each Ship has one Pirate. Thus a @OneToMany relationship, stored in H2 db.
 
