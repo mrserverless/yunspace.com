@@ -7,7 +7,7 @@ image = ""
 menu = ""
 share = true
 slug = "post-title"
-tags = ["hugo", static", "blog"]
+tags = ["hugo", "static", "blog"]
 title = "harp2hugo"
 
 +++
