@@ -12,7 +12,7 @@ title = "harp2hugo"
 
 +++
 
-I've moved my blog away from [Harp]() to [Hugo](https://gohugo.io/). And wrote a couple of useful tools along the way:
+I've moved my blog away from [Harp](http://harpjs.com/) to [Hugo](https://gohugo.io/). And wrote a couple of useful tools along the way:
 
  - [Harp2Hugo](https://rubygems.org/gems/harp2hugo) gem to do the content conversion for meta data.
  - [Alpine Docker Hugo](https://github.com/TechnoTycoon/docker-alpine-hugo) - available on both
@@ -24,6 +24,6 @@ Check it out if you need usage examples.
 I chose Hugo mainly because:
 
  1. has proper theme support - switch/modify themes on the fly, without hacking around your content pages.
- 2. processing speed - 1 millisecond per page processing speed
+ 2. processing speed - 1 millisecond per page
  3. powerful web server - on par with Apache if not closer to NGinx
  4. better documentation and responsive support forums.
