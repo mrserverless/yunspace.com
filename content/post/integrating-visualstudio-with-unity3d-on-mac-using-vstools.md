@@ -2,9 +2,9 @@
 title: Integrating Visual Studio with Unity3d on Mac using UnityVS Tools
 date: '2015-01-19'
 tags:
-- unity3d
-- visualstudio
-- gamedev
+  - unity3d
+  - visualstudio
+  - gamedev
 author: yunspace
 linktitle: Integrating Visual Studio with Unity3d on Mac using UnityVS Tools
 aliases:

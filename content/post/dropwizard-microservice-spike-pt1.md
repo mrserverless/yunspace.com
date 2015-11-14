@@ -2,8 +2,8 @@
 title: Dropwizard Microservice Spike Pt 1 - Justifications
 date: '2014-10-22'
 tags:
-- dropwizard
-- microservices
+  - dropwizard
+  - microservices
 author: yunspace
 aliases:
   - /blog/dropwizard-microservice-spike-pt1

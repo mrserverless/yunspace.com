@@ -2,9 +2,9 @@
 title: 'Ninja Scroll: The Series'
 date: '2014-04-23'
 tags:
-- entertainment
-- ninja
-- anime
+  - entertainment
+  - ninja
+  - anime
 author: yunspace
 aliases:
   - /blog/ninja-scroll-the-series

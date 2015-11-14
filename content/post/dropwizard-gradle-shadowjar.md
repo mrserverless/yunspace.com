@@ -2,8 +2,8 @@
 title: Dropwizard Gradle Build with ShadowJar
 date: '2014-02-12'
 tags:
-- dropwizard
-- gradle
+  - dropwizard
+  - gradle
 author: yunspace
 aliases:
   - /blog/dropwizard-gradle-shadowjar

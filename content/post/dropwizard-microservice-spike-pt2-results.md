@@ -2,8 +2,8 @@
 title: Dropwizard Microservice Spike Pt 2 - Results
 date: '2014-10-30'
 tags:
-- dropwizard
-- microservices
+  - dropwizard
+  - microservices
 author: yunspace
 aliases:
   - /blog/dropwizard-microservice-spike-pt2-results

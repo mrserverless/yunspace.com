@@ -2,9 +2,9 @@
 title: Building a Windows8 Home Server using Storage Spaces
 date: '2015-05-16'
 tags:
-- homeserver
-- windows
-- nas
+  - homeserver
+  - windows
+  - nas
 author: yunspace
 aliases:
   - /blog/building-a-windows8-homeserver-using-storage-spaces

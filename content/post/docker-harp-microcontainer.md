@@ -2,11 +2,9 @@
 title: Docker Harp Microcontainer
 date: '2015-05-16'
 tags:
-- docker
-- harp
-- microcontainer
-- microservices
-- continuous-delivery
+  - docker
+  - harp
+  - microservices
 author: yunspace
 aliases:
   - /blog/docker-harp-microcontainer

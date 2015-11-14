@@ -2,7 +2,8 @@
 title: One Game a Month
 date: '2015-01-10'
 tags:
-- gamedev
+  - gamedev
+  - unity3d
 author: yunspace
 aliases:
   - /blog/one-game-a-month

@@ -2,8 +2,8 @@
 title: Dropwizard XML Bundle
 date: '2014-01-09'
 tags:
-- dropwizard
-- xml
+  - dropwizard
+  - xml
 author: yunspace
 linktitle: Dropwizard XML Bundle
 aliases:

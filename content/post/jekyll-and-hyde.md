@@ -2,9 +2,9 @@
 title: Jekyll and Hyde
 date: '2013-12-29'
 tags:
-- jekyll
-- static
-- blog
+  - jekyll
+  - static
+  - blog
 author: yunspace
 aliases:
   - /blog/jekyll-and-hyde

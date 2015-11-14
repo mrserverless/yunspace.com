@@ -2,9 +2,9 @@
 title: Layon and Poole
 date: '2014-02-15'
 tags:
-- jekyll
-- static
-- blog
+  - jekyll
+  - static
+  - blog
 author: yunspace
 aliases:
   - /blog/layon-and-poole

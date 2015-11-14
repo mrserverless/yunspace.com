@@ -2,9 +2,9 @@
 title: Dropwizard Jersey2 NewRelic Integration
 date: '2015-01-29'
 tags:
-- dropwizard
-- jersey
-- devops
+  - dropwizard
+  - jersey
+  - devops
 author: yunspace
 aliases:
   - /blog/dropwizard-jersey2-newrelic-integration

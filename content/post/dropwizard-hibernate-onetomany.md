@@ -2,9 +2,9 @@
 title: Dropwizard Hibernate OneToMany
 date: '2014-02-16'
 tags:
-- dropwizard
-- database
-- hibernate
+  - dropwizard
+  - database
+  - hibernate
 author: yunspace
 aliases:
   - /blog/dropwizard-hibernate-onetomany

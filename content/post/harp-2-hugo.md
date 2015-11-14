@@ -1,16 +1,17 @@
-+++
-author = "yunspace"
-comments = true
-date = "2015-10-04T18:53:11+11:00"
-draft = false
-image = ""
-menu = ""
-share = true
-slug = "post-title"
-tags = ["hugo", "static", "blog"]
-title = "harp2hugo"
-
-+++
+---
+author: yunspace
+comments: true
+date: '2015-10-04T18:53:11+11:00'
+draft: false
+image: ""
+menu: ""
+share: true
+tags:
+  - hugo
+  - static
+  - blog
+title: "Harp 2 Hugo"
+---
 
 I've moved my blog away from [Harp](http://harpjs.com/) to [Hugo](https://gohugo.io/). And wrote a couple of useful tools along the way:
 

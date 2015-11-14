@@ -2,9 +2,9 @@
 title: Tutum HAProxy VirtualHost plus SSL Setup
 date: '2015-05-16'
 tags:
-- homeserver
-- windows
-- nas
+  - homeserver
+  - windows
+  - nas
 author: yunspace
 draft: true
 aliases:

@@ -2,10 +2,10 @@
 title: Dropwizard MongoDB GoogleCloud
 date: '2014-02-23'
 tags:
-- dropwizard
-- mongodb
-- googlecloud
-- presentaiton
+  - dropwizard
+  - mongodb
+  - googlecloud
+  - presentaiton
 author: yunspace
 aliases:
   - /blog/dropwizard-mongodb-googlecloud
