@@ -7,7 +7,8 @@ share: true
 tags:
   - hugo
   - static
-  - blog
+  - docker
+  - tutum
 title: "Harp 2 Hugo"
 ---
 

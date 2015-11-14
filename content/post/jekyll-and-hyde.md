@@ -4,7 +4,6 @@ date: '2013-12-29'
 tags:
   - jekyll
   - static
-  - blog
 author: yunspace
 aliases:
   - /blog/jekyll-and-hyde
