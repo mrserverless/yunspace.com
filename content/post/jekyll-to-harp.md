@@ -24,7 +24,7 @@ The next question is where to host my harp blog. There are several options:
 However as a Software Engineer I'm not a fan of using Dropbox as source control and wanted to be more hands on. In the end I settled on the following DIY solution:
 
 - **Architecture** My blogs are effectively Harp Microservices within [Docker](https://www.docker.com) containers. I created my own minimal [AlphineLinux Harp](https://github.com/yunspace/docker-alphine-harp) containers.
-- **Build**: GitHub commits triggers [Quay.io](https://quay.io/), which is Continuous Delivery for Docker. See my build status: [![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.ninja/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.ninja)
+- **Build**: GitHub commits triggers [Quay.io](https://quay.io/), which is Continuous Delivery for Docker. See my build status: [![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.com/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.com)
 - **Deploy** Successful Docker builds kicks off deployment webhook in [Tutum Cloud](http://tutum.co). Tutum takes care of Container orchestration and load balancing.
 - **Virtual Machines** provided by [Windows Azure](http://azure.microsoft.com/).
 - **DNS and CDN** using the free and powerful [Cloudfare](https://www.cloudFlare.com).
