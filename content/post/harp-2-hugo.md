@@ -3,8 +3,6 @@ author: yunspace
 comments: true
 date: '2015-10-04T18:53:11+11:00'
 draft: false
-image: ""
-menu: ""
 share: true
 tags:
   - hugo
@@ -17,6 +15,7 @@ I've moved my blog away from [Harp](http://harpjs.com/) to [Hugo](https://gohugo
 
  - [Harp2Hugo](https://rubygems.org/gems/harp2hugo) gem to do the content conversion for meta data.
  - [Alpine Docker Hugo](https://github.com/TechnoTycoon/docker-alpine-hugo) - available on both
+ [docker hub](https://hub.docker.com/r/technotycoon/alpine-hugo/) and [quay.io](https://quay.io/repository/technotycoon/alpine-hugo)
 
 My blog's [Tutum Stack](https://github.com/yunspace/yunspace.com/blob/master/docker-compose.yml)
 and [Dockerfile](https://github.com/yunspace/yunspace.com/blob/master/Dockerfile) have been updated accordingly.
