@@ -1,5 +1,5 @@
 ---
-title: Jekyll 2 Harp
+title: Jekyll to Harp
 date: '2015-05-10'
 tags:
   - harp

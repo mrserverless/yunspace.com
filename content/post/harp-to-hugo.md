@@ -9,7 +9,7 @@ tags:
   - static
   - docker
   - tutum
-title: "Harp 2 Hugo"
+title: "Harp to Hugo"
 ---
 
 I've moved my blog away from [Harp](http://harpjs.com/) to [Hugo](https://gohugo.io/). And wrote a couple of useful tools along the way:
