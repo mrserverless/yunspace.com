@@ -1,5 +1,5 @@
 ---
-title: Docker Infrastructure on Tutum Cloud
+title: Fullstack Docker Infrastructure on Tutum
 author: yunspace
 comments: true
 date: '2015-11-14T22:35:32+11:00'
@@ -14,9 +14,14 @@ Docker is disruptive, but at the end of the day you need somewhere to deploy it.
 And if you are sensible you want would to do it in the cloud, even if you are a bank.
 
 Earlier in 2015 I took a punt and moved our entire Docker infrastructure from
-self-hosted [Deis](http://deis.io/) to [Tutum](https://www.tutum.co/). It was so easy
-and took just 2 days. Tutum has since been [acquired by Docker](http://techcrunch.com/2015/10/21/docker-acquires-cloud-startup-tutum-for-container-shipping-and-management/)
+self-hosted [Deis](http://deis.io/) to [Tutum](https://www.tutum.co/). Tutum has
+since been [acquired by Docker](http://techcrunch.com/2015/10/21/docker-acquires-cloud-startup-tutum-for-container-shipping-and-management/)
 and we've never looked back.
+
+It took me 2 days to get the initial infrastructure migrated. Then a slight bumpy
+road to setup some of the more advanced features such as SSL, Virtual Hosts and
+Zero Downtime Deployment. I will attempt to connect the pieces together to share
+some knowledge and maybe get some feedback on improvements also.
 
 A typical Docker Cloud infrastructure orchestrated by Tutum sitting in AWS would look something like this:
 <div class="mxgraph" style="position:relative;overflow:auto;width:100%;"><div style="width:1px;height:1px;overflow:hidden;">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</div></div>
@@ -25,5 +30,7 @@ This blog also leverages the above stack, except I'm using [Azure](https://azure
 for my personal projects. However Tutum neatly abstracts away the infrastructure layer, so I can swap
 out to [AWS](https://aws.amazon.com) or [Digital Ocean](https://www.digitalocean.com/) anytime. All
 deployments are Continuous Delivered via [Quay.io](https://quay.io) and [Snap-CI](https://snap-ci.com/).
+
+TO BE CONTINUED ...
 
 <script type="text/javascript" src="https://www.draw.io/embed.js?s=aws2/non-service_specific;aws2/compute_and_networking;aws2/database;aws/groups"></script>
