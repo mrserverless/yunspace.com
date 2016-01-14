@@ -1,4 +1,4 @@
-FROM quay.io/technotycoon/alpine-hugo:latest
+FROM quay.io/yunspace/alpine-hugo:latest
 MAINTAINER Yun Zhi Lin <yun@yunspace.com>
 
 ENV HUGO_BASE_URL http://docker
