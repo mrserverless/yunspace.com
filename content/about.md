@@ -4,33 +4,21 @@ date = "2014-04-09"
 menu = "main"
 +++
 
-I'm a Sydney-based CTO leading the FinTech Revolution at
-[Republic Wealth Management](http://www.republicwealth.com.au). This blog is
-aimed at sharing my experiences working in the FinTech, PropTech space.
+I'm a proud father, lucky husband, man of faith, and passionate technologist from Sydney.
 
-Being a Microservices and container advocate, I've built this site using an
-automated [Docker Microservices stack](/docker-tutum-cloud/) which doesn't
-require much maintenance on my behalf.
+Currently I'm working as Microservices Lead at [amaysim][amaysim-url] and Technical Advisor for [Alchemey Ventures][alchemy-yun] 
 
-I am the creator of the following projects:
+- I've been using Docker in production since 2014, across 3 startups and 1 public company. Each time I had to setup the container orchestration platform from scratch.
+- I've hobbied with Unity3d since 2009 but have yet to release a game. 
+- I picked up GoLang in 2 days mid 2016 and refuses to code in anything else from then on.
 
-  * [Harp 2 Hugo gem](https://rubygems.org/gems/harp2hugo)
-  * [Dropwizard XML Bundle](https://github.com/yunspace/dropwizard-xml)
-  * [Docker Alpine Hugo](https://github.com/yunspace/docker-alpine-hugo)
-  * [Docker Alphine Harp](https://github.com/yunspace/docker-alpine-harp)
-  * [lazybones-dropwizard-turbo](https://github.com/Trunkplatform/lazybones-dropwizard-turbo)
-  * [Tutum Zero Downtime Deploy gem](https://github.com/Trunkplatform/tutum-deploy)
-
-  and actively contributes to the following:
-
-  * [Dropwizard Guice](https://github.com/HubSpot/dropwizard-guice/)
-  * [TechEmpower Framework Benchmarks](https://github.com/TechEmpower/FrameworkBenchmarks)
-  * [Gwizard](https://github.com/gwizard/gwizard)
-
-Source code and Stack (Docker Compose) for this blog is available on [GitHub](https://github.com/yunspace/yunspace.com).
+This site rans on Rancher Server hoste by Azure. Code is on [GitHub](https://github.com/yunspace/yunspace.com).
 
 Feel free to connect with me on
 [GitHub](https://github.com/yunspace), [Twitter](https://twitter.com/yunzhilin),
 and [LinkedIn](https://www.linkedin.com/in/yunzhilin)
 
 Thanks for reading!
+
+[amaysim-url]:  https://www.amaysim.com.au/
+[alchemy-yun]:  http://www.alchemyventures.com.au/advisory/#technical-advisory-yun-zhi-lin
