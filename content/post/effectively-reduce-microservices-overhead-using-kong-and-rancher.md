@@ -25,7 +25,7 @@ Sam Newman's [article on BFF][bff-pattern] (Backend For Frontend, not Best Frien
 
 The above setup using Kong + Postgres RDS has been tested quite thoroughly in Production by a previous startup I consulted for. I would recommend Kong if you:
 
-- prefer an opensource alternative and control, over vendor solutions such as AWS API Gateway ([only became available in Sydney in June][aws-api-gateway-syd])
+- prefer an opensource alternative and control, over vendor solutions such as AWS API Gateway ([recently became available in Sydney][aws-api-gateway-syd])
 - have a security design that is comfortable to push authentication and other common functions to the perimeter
 - have limited time/resources and wish to focus on your Services rather than the perimeter plumbing
 
