@@ -21,7 +21,7 @@ Sam Newman's [article on BFF][bff-pattern] (Backend For Frontend, not Best Frien
 - [Docker Kong as a Service][kong-docker-service] a fork to the official Kong docker image, that uses Rancher metadata service for IP discovery with more flexible Environment Variables. 
 - [Kong Rancher Catalog][kong-catalog] a Rancher Catalogue that simplifies the global deployment of the above container across all Rancher nodes.
 
-![Harp Web Server](/images/kong/kong-catalog.png)
+![Kong Rancher Catalog](/images/kong/kong-catalog.png)
 
 The above setup of Kong + Postgres RDS has been tested quite thoroughly in Production by a previous startup I consulted for. I would recommend Kong if you:
 
@@ -30,6 +30,8 @@ The above setup of Kong + Postgres RDS has been tested quite thoroughly in Produ
 - have limited time/resources and wish to focus on your Services rather than the perimeter plumbing
 
 Try it out and welcome any feedback. I'm planning to give a talk on this topic at the [Rancher Sydney][rancher-syd] meetup. Stay tuned.
+
+
 
 [aws-api-gateway-syd]:	https://aws.amazon.com/about-aws/whats-new/2016/06/amazon-api-gateway-available-in-asia-pacific-sydney/
 [bff-pattern]:			http://samnewman.io/patterns/architectural/bff/
