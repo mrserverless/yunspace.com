@@ -16,9 +16,10 @@ My blog using [HarpJS](http://harpjs.com) as [Docker](http://docker.io) containe
 
 Run using Hugo:
 
-  hugo server .
+    git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
+    hugo server .
 
 Build and run Docker
 
-  docker build -t yunspace/yunspace.com .
-  docker run --rm -t -p 1313:1313 yunspace/yunspace.com
+    docker build -t yunspace/yunspace.com .
+    docker run --rm -t -p 1313:1313 -e "HUGO_BASE_URL=localhost:1313" yunspace/yunspace.com
