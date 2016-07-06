@@ -29,7 +29,7 @@ Sam Newman's [article on BFF][bff-pattern] (Backend For Frontend, not Best Frien
 The above setup using Kong + Postgres RDS has been tested quite thoroughly in Production by a previous startup I consulted for. I would recommend Kong if you:
 
 - Prefer an opensource alternative and control, over vendor solutions such as AWS API Gateway ([recently became available in Sydney][aws-api-gateway-syd])
-- Plan to integrate with other Mashape awesomeness such as [Gelato Developer Portal][gelato] or [Galileo Analytics][galileo]
+- Plan to integrate with other Mashape awesomeness such as [Gelato Developer Portal][gelato-url] or [Galileo Analytics][galileo-url]
 - Have a security design that is comfortable to push authentication and other common functions to the perimeter
 - Are under time/resources restrictions and wish to focus on your Services, rather than perimeter plumbing
 
