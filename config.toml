@@ -15,7 +15,7 @@ theme = "casper"
   authorwebsite = "https://www.yunspace.com"
   bio= "my bio"
   logo = "images/yun_stamp_trans.png"
-  googleAnalyticsUserID = ""
+  googleAnalyticsUserID = "UA-8909119-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
   githubName = "yunspace"
