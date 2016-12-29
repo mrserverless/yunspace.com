@@ -8,7 +8,7 @@ tags:
   - static
   - aws
   - snapci
-title: "SnapCI Continuously Deploy Hugo static website to AWS S3"
+title: "SnapCI Continuous Deploy Hugo static website to AWS S3"
 ---
 
 ![SnapCI Hugo S3](/images/serverless/snapci-hugo-s3.png)

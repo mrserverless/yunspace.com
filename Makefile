@@ -6,8 +6,16 @@ deps:
 .PHONY: deps
 
 build: clean deps
-	$(call dockerHugo) 
+	$(call dockerHugoBuild) 
 .PHONY: build
+
+start:
+	$(call dockerHugoServer)
+.PHONY: server
+
+stop:
+	docker stop "hugo-yunspace"
+.PHONY: server
 
 deploy:
 	aws s3 sync public $(S3_BUCKET)
@@ -17,8 +25,17 @@ clean:
 	rm -rf public themes
 .PHONY: clean
 
-define dockerHugo
+define dockerHugoBuild
 	docker run --rm \
+		-v $(shell pwd):/src \
+   		-v $(shell pwd)/public:/output \
+		$(HUGO_IMG)  
+endef
+
+define dockerHugoServer
+	docker run --name "hugo-yunspace" -d \
+		-p 1313:1313 \
+		-e HUGO_WATCH=true \
 		-v $(shell pwd):/src \
    		-v $(shell pwd)/public:/output \
 		$(HUGO_IMG)  

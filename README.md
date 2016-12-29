@@ -1,25 +1,16 @@
 # YunSpace.com
 
-My blog using [HarpJS](http://harpjs.com) as [Docker](http://docker.io) containers, built by [Quay.io](https://quay.io) and managed by [Tutum Cloud](https://tutum.co)
+[![Build Status](https://app.snap-ci.com/yunspace/yunspace.com/branch/master/build_image)](https://app.snap-ci.com/yunspace/yunspace.com/branch/master)
 
-[![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/?repo=https://github.com/yunspace/yunspace.com)
-[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/yunspace.com/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/yunspace.com)
-
-
-## Tech Stack
-
-* Blog Template: [Casper theme for Hugo](http://themes.gohugo.io/casper/)
-* Base Image: [technotycoon/alphine-hugo](quay.io/technotycoon/alpine-hugo:latest)
-* Container Image: [yunspace/yunspace.com](https://quay.io/repository/yunspace/yunspace.com)
+My blog using Hugo static site generator and deployed to S3 + CloudFront by SnapCI.
 
 ## Usage
+Run locally
 
-Run using Hugo:
+    make start
+    # go to localhost:1313
+    make stop
 
-    git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
-    hugo server .
+Build and deploy to AWS
 
-Build and run Docker
-
-    docker build -t yunspace/yunspace.com .
-    docker run --rm -t -p 1313:1313 -e "HUGO_BASE_URL=localhost:1313" yunspace/yunspace.com
+    make build deploy
