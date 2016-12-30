@@ -17,7 +17,7 @@ theme = "casper"
   logo = "images/yun_stamp_trans.png"
   googleAnalyticsUserID = "UA-8909119-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = ""
+  RSSLink = "index.xml"
   githubName = "yunspace"
   twitterName = "yunzhilin"
   # facebookName = ""

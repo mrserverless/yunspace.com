@@ -1,5 +1,6 @@
 ---
 title: Dropwizard Microservice Spike Pt 2 - Results
+slug: dropwizard-microservice-spike-pt2-results
 date: '2014-10-30'
 tags:
   - dropwizard

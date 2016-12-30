@@ -1,5 +1,6 @@
 ---
 title: Dropwizard Microservice Spike Pt 1 - Justifications
+slug: dropwizard-microservice-spike-pt1
 date: '2014-10-22'
 tags:
   - dropwizard
