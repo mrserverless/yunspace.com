@@ -20,6 +20,7 @@ stop:
 
 deploy:
 	aws s3 sync public $(S3_BUCKET)
+	aws configure set preview.cloudfront true
 	aws cloudfront create-invalidation --distribution-id E3CYI74S0HW74Z --paths /index.html /post /about /talks /tags
 .PHONY: deploy
 
