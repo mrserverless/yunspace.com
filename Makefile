@@ -11,11 +11,12 @@ build: clean deps
 
 start:
 	$(call dockerHugoServer)
-.PHONY: server
+.PHONY: start
 
 stop:
 	docker stop "hugo-yunspace"
-.PHONY: server
+	docker rm "hugo-yunspace"
+.PHONY: stop
 
 deploy:
 	aws s3 sync public $(S3_BUCKET)
