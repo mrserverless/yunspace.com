@@ -5,8 +5,7 @@ deps:
 	git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
 .PHONY: deps
 
-build: clean deps
-	$(call dockerHugoBuild) 
+build: clean deps _build
 .PHONY: build
 
 start:
