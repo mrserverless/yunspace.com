@@ -28,6 +28,9 @@ clean:
 	rm -rf public themes
 .PHONY: clean
 
+_build:
+	hugo
+
 define dockerHugoBuild
 	docker run --rm \
 		-v $(shell pwd):/src \
