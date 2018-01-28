@@ -6,16 +6,17 @@ menu = "main"
 
 My name is Yun Zhi Lin. I am a proud father, lucky husband, man of faith, and passionate technologist from Sydney.
 
-Currently I am leading Microservices Transformation at [amaysim][amaysim-url] and give Technical Advice to [Alchemey Ventures][alchemy-yun] 
+I am the VP of Engineering for APAC region at [Contino][contino-url] and [frequent speaker][talks] at various meetup and conferences, on the topic of Serverless, Event Driven Programming, occasionally Microservices, and every now and then Containers.
 
-Tge cide for this site is at [GitHub](https://github.com/yunspace/yunspace.com) and the CD pipeline can be found in [SnapCI][snap-pipeline]
+The code for this site is at [GitHub][github-site]
 
-Feel free to connect with me on
-[GitHub](https://github.com/yunspace), [Twitter](https://twitter.com/yunzhilin),
-and [LinkedIn](https://www.linkedin.com/in/yunzhilin)
+Feel free to connect with me on [GitHub][github], [Twitter][twitter], and [LinkedIn][linkedin]
 
 Thanks for reading!
 
-[amaysim-url]:  https://www.amaysim.com.au/
-[alchemy-yun]:  http://www.alchemyventures.com.au/advisory/#technical-advisory-yun-zhi-lin
-[snap-pipeline]:https://app.snap-ci.com/yunspace/yunspace.com/branch/master
+[contino-url]:  https://www.contino.io
+[talks]:        /talks
+[github-site]:  https://github.com/yunspace/yunspace.com
+[github]:       https://github.com/yunspace/
+[twitter]:      https://twitter.com/yunzhilin
+[linkedin]:     https://www.linkedin.com/in/mrserverless

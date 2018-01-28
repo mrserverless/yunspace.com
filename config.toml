@@ -29,22 +29,22 @@ theme = "casper"
 
 [[menu.main]]
   name = "Blog"
-  weight = -120
+  weight = 100
   identifier = "blog"
   url = "/"
 
 [[menu.main]]
-  name = "Github"
-  weight = 100
   pre = "<h3>Follow me</h3>"
+  name = "Github"
+  weight = -100
   url = "https://github.com/yunspace"
 
 [[menu.main]]
   name = "Twitter"
-  weight = 101
+  weight = -101
   url = "https://twitter.com/yunzhilin"
 
 [[menu.main]]
   name = "LinkedIn"
-  weight = 101
-  url = "https://au.linkedin.com/in/yunzhilin"
+  weight = -102
+  url = "https://au.linkedin.com/in/mrserverless"
