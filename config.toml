@@ -5,7 +5,7 @@ paginate = 5
 DisqusShortname = "yunspace"
 Copyright = "All rights reserved - 2015"
 canonifyurls = true
-theme = "casper"
+theme = "hugo-theme-casper"
 
 [params]
   description = "Beyond the Clouds"
