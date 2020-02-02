@@ -6,7 +6,7 @@ menu = "main"
 
 My name is Yun Zhi Lin. I am a proud father, lucky husband, man of faith, and passionate technologist from Sydney.
 
-I am the VP of Engineering for APAC region at [Contino][contino-url] and [frequent speaker][talks] at various meetup and conferences, on the topic of Serverless, Event Driven Programming, occasionally Microservices, and every now and then Containers.
+I am the Chief Innovation Officer at [Contino][contino-url] and [frequent speaker][talks] at various meetup and conferences, on the topics  of Disruptive Strategy, Innovation, Applied AI and Serverless.
 
 The code for this site is at [GitHub][github-site]
 
