@@ -5,7 +5,13 @@ paginate = 5
 DisqusShortname = "yunspace"
 Copyright = "All rights reserved - 2015"
 canonifyurls = true
-theme = "hugo-theme-casper"
+theme = "kross-hugo"
+
+# default configuration
+languageCode = "en-us"
+summaryLength = "10"
+title = "Kross | Hugo Portfolio Template"
+
 
 [params]
   description = "Beyond the Clouds"
@@ -14,7 +20,7 @@ theme = "hugo-theme-casper"
   authorlocation = "Sydney, Australia"
   authorwebsite = "https://www.yunspace.com"
   bio= "my bio"
-  logo = "images/yun_stamp_trans.png"
+#  logo = "images/yun_stamp_trans.png"
   googleAnalyticsUserID = "UA-8909119-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = "index.xml"
@@ -24,27 +30,103 @@ theme = "hugo-theme-casper"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
 
+  home = "Home"
+  logo = "images/logo.png"
+  # theme color
+  theme_color = "#41228e"
+  # contact info
+  phone = "+880 2544 658 256"
+  email = "yun@yunspace.com"
+  address = "125/A, CA Commercial Area, California, USA"
+  # meta description
+  # google analitycs
+  google_analitycs_id = "UA-8909119-1"
+  # copyright
+  copyright = "Copyrighht &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+
+
+
+
 [permalinks]
   post = "/post/:slug/"
 
+
+
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+
+
+# menu
 [[menu.main]]
-  name = "Blog"
-  weight = 100
-  identifier = "blog"
-  url = "/"
+URL = "about"
+name = "About"
+weight = 2
 
 [[menu.main]]
-  pre = "<h3>Follow me</h3>"
-  name = "Github"
-  weight = -100
-  url = "https://github.com/yunspace"
+URL = "blog"
+name = "Blog"
+weight = 3
 
 [[menu.main]]
-  name = "Twitter"
-  weight = -101
-  url = "https://twitter.com/yunzhilin"
+URL = "portfolio"
+name = "Portfolio"
+weight = 4
 
 [[menu.main]]
-  name = "LinkedIn"
-  weight = -102
-  url = "https://au.linkedin.com/in/mrserverless"
+URL = "contact"
+name = "Contact"
+weight = 5
+
+
+
+# contact
+[params.contact]
+enable = true
+form_action = "#" # contact form works with : https://formspree.io
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# social site
+[[params.social]]
+URL = "https://au.linkedin.com/in/mrserverless"
+icon = "ti-linkedin"
+
+[[params.social]]
+URL = "https://github.com/yunspace"
+icon = "ti-github"
+
+[[params.social]]
+URL = "#"
+icon = "ti-dribbble"
+
+[[params.social]]
+URL = "https://twitter.com/yunzhilin"
+icon = "ti-twitter-alt"
+
+
+

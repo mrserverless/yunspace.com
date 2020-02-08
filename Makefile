@@ -1,11 +1,8 @@
-HUGO_IMG=jojomi/hugo:0.18
+HUGO_IMG=jojomi/hugo:0.63.1
 S3_BUCKET=s3://www.yunspace.com
 
-deps:
-	git clone https://github.com/vjeantet/hugo-theme-casper themes/casper
-.PHONY: deps
-
-build: clean deps _build
+build: clean 
+	$(call dockerHugoBuild)
 .PHONY: build
 
 start:
@@ -17,14 +14,8 @@ stop:
 	docker rm "hugo-yunspace"
 .PHONY: stop
 
-deploy:
-	aws s3 sync public $(S3_BUCKET)
-	aws configure set preview.cloudfront true
-	aws cloudfront create-invalidation --distribution-id E3CYI74S0HW74Z --paths /index.html /post /about /talks /tags
-.PHONY: deploy
-
 clean:
-	rm -rf public themes
+	rm -rf public
 .PHONY: clean
 
 _build:
