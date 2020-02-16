@@ -1,8 +1,9 @@
-+++
-title = "About"
-date = "2014-04-09"
-menu = "main"
-+++
+---
+title: "About"
+date: 2014-04-09
+draft: false
+---
+
 
 My name is Yun Zhi Lin. I am a proud father, lucky husband, man of faith, and passionate technologist from Sydney.
 
