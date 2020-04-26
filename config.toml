@@ -95,6 +95,13 @@ dateFormatToUse = "2006-01-02"
     url = "about"
     weight = 4
 
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "resume"
+    weight = 4
+
   [[menu.main]]
     identifier = "talks"
     name = "Talks"

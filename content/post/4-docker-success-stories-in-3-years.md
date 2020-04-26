@@ -1,14 +1,36 @@
 ---
 author: yunspace
 comments: true
-date: '2017-04-02T22:31:00+11:00'
+date: 2017-04-02T22:31:00+11:00
+title: "4 Docker Success Stories in 3 Years - Docker 4th Birthday Talk"
 draft: false
 share: true
-tags:
-  - docker
-  - startups
-  - rancher
-title: "4 Docker Success Stories in 3 Years - Docker 4th Birthday Talk"
+description: "4 Docker Success Stories in 3 Years - Docker 4th Birthday Talk"
+show_in_homepage: true
+description_as_summary: false
+license: ""
+
+tags: [
+  "docker", "startups", "rancher"
+]
+categories: [
+  "technology",
+]
+
+featured_image: /images/emoji.jpg
+featured_image_preview: ""
+
+comment: true
+toc: false
+auto_collapse_toc: true
+math: false
+---
+
+
+
+
+
+title: 
 ---
 
 I was privileged enough to be invited to give a talk about my experiences with Docker at the Docker 4th Birthday celebration organised by 
